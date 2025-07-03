@@ -214,13 +214,16 @@ if (!empty($dados["Sendlogin"])) {
             font-size: 1.5rem;
             margin-right: 15px;
         }
+        .navbar-brand img{
+            width: 150px;    
+        }
     </style>
 </head>
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="#">SMART KICKS</a>
+            <a class="navbar-brand" href="#"><img src="assets/logo.png" alt="logo1"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -244,7 +247,7 @@ if (!empty($dados["Sendlogin"])) {
                 </ul>
                 <div class="ms-3 d-flex">
                     <a href="#" class="btn btn-outline-dark me-2"><i class="fas fa-search"></i></a>
-                    <a href="#" class="btn btn-outline-dark me-2"><i class="fas fa-user"></i></a>
+                    <a href="login.php" class="btn btn-outline-dark me-2"><i class="fas fa-user"></i></a>
                     <a href="#" class="btn btn-outline-dark"><i class="fas fa-shopping-cart"></i></a>
                 </div>
             </div>
